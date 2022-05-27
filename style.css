@@ -1,0 +1,36 @@
+
+body{
+    background: cyan;
+}
+
+
+#linho{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: cava  8s infinite ;
+}
+
+@keyframes cava {
+    0%{top: 0px; left: 0px; }
+    5%{top: 0px; left: 70px;}
+    10%{top: 120px; left: 70px;}
+    15%{top: 120px;left: 130px;}
+    20%{top: 250px;left: 130px;}
+    25%{top: 250px; left: 190px;}
+    30%{top: 370px; left: 190px;}
+    35%{top: 370px;left: 315px;}
+    40%{top: 435px;left: 315px;}
+    45%{top: 435px;left: 315px;}
+    50%{top: 370px;left: 315px;}
+    55%{top: 370px;left: 190px;}
+    65%{top: 250px; left: 190px;}
+    75%{top: 250px;left: 130px;}
+    80%{top: 120px;left: 130px;}
+    85%{top: 120px; left: 70px;}
+    90%{top: 0px; left: 70px;}
+    95%{top: 0px; left: 0px; }
+
+
+    
+}
